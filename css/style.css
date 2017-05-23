@@ -1,0 +1,15 @@
+body{
+  margin:0px;
+  padding-top: 70px;
+  width: 100%;
+  height: 100%;
+}
+#cabeza{
+  background-color: white;
+  padding: 10px 0px;
+  align-items: center;
+}
+#contenedorGeneral{
+  background-image:url("img/taxi.jpg");
+  background-size:cover;
+}
