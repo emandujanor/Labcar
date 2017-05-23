@@ -20,67 +20,108 @@ body {
   background-size: 100%;
   padding: 5% 0px;
 }
-#bloqueRegistro{
+
+#bloqueRegistro {
   background-color: #f7b617;
   padding: 30px 50px;
-  color:white;
+  color: white;
 }
-#descarga{
+
+#descarga {
   background-color: #f7b617;
   padding: 30px 0px;
-  color:white;
+  color: white;
 }
 
-#descargaBloque{
-  border:white solid 1px;
+#descargaBloque {
+  border: white solid 1px;
   padding: 30px 50px;
-
 }
-#conduce{
+
+#conduce {
   background-image: url("../img/conduce.jpg");
-  background-size:100%;
-  color:white;
+  background-size: 100%;
+  color: white;
 }
-#bloqueConduce{
-  background-color: rgba(0,0,0,0.65);
-  padding:  120px 50px;
+
+#bloqueConduce {
+  background-color: rgba(0, 0, 0, 0.65);
+  padding: 120px 50px;
 }
-#botonConduce{
+
+#botonConduce {
   background-color: #f7b617;
-  color:white;
+  color: white;
 }
-#mapa{
+
+#mapa {
   background-color: #f7b617;
   padding: 30px 0px;
-  color:white;
+  color: white;
 }
 
-#mapaBloque{
-  border:white solid 1px;
+#mapaBloque {
+  border: white solid 1px;
   padding: 30px 50px;
-
 }
-#tarifas{
+
+#tarifas {
   margin-top: 80px;
 }
-#tarifas>h4{
+
+#tarifas>h4 {
   margin: 30px 0px;
 }
 
-.tarifasIcon{
+.tarifasIcon {
   background-color: #f7b617;
-  color:white;
-  border:none;
+  color: white;
+  border: none;
 }
-.tarifasInput{
+
+.tarifasInput {
   background-color: #f7b617;
-  color:white;
-  border:solid 1px white;
+  color: white;
+  border: solid 1px white;
   border-radius: 5px;
 }
-#partida{
+
+#partida {
   margin-bottom: 40px;
 }
-#botonRuta{
-  margin:50px auto;
+
+#botonRuta {
+  margin: 50px auto;
+}
+
+footer {
+  background-color: black;
+  padding: 80px 0px;
+  color: white;
+}
+
+footer>hr {
+  color: white;
+  height: 1px;
+  width: 100%;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul>li>a {
+  text-decoration: none;
+  color: white;
+}
+
+footer ul>li>a:hover {
+  text-decoration-color: white;
+  color: white;
+}
+.imgStore{
+  height: 30px;
+  margin-bottom: 10px;
+  vertical-align: bottom;
+
 }
