@@ -16,9 +16,10 @@ body {
 }
 
 #registro {
+  padding: 15% 0px;
   background-image: url("../img/taxi.jpg");
   background-size: 100%;
-  padding: 5% 0px;
+  background-position: bottom;
 }
 
 #bloqueRegistro {
