@@ -12,13 +12,12 @@ body {
 }
 
 #contenedorGeneral {
-  background-image: url("../img/taxi.jpg");
-  background-size: cover;
   height: 100%;
-  background-size: cover;
 }
 
 #registro {
+  background-image: url("../img/taxi.jpg");
+  background-size: 100%;
   padding: 5% 0px;
 }
 #bloqueRegistro{
@@ -35,4 +34,53 @@ body {
 #descargaBloque{
   border:white solid 1px;
   padding: 30px 50px;
+
+}
+#conduce{
+  background-image: url("../img/conduce.jpg");
+  background-size:100%;
+  color:white;
+}
+#bloqueConduce{
+  background-color: rgba(0,0,0,0.65);
+  padding:  120px 50px;
+}
+#botonConduce{
+  background-color: #f7b617;
+  color:white;
+}
+#mapa{
+  background-color: #f7b617;
+  padding: 30px 0px;
+  color:white;
+}
+
+#mapaBloque{
+  border:white solid 1px;
+  padding: 30px 50px;
+
+}
+#tarifas{
+  margin-top: 80px;
+}
+#tarifas>h4{
+  margin: 30px 0px;
+}
+
+.tarifasIcon{
+  background-color: #f7b617;
+  color:white;
+  border:none;
+}
+.tarifasInput{
+  background-color: #f7b617;
+  color:white;
+  border:solid 1px white;
+  border-radius: 5px;
+}
+#partida{
+  margin-bottom: 40px;
+}
+#botonRuta{
+  margin:50px auto;
 }
